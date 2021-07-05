@@ -48,6 +48,9 @@
   p{
     font-style: oblique;
   }
+  .map{
+    display: none;
+  }
 
 
 @media  screen and (min-width:568px){
@@ -104,7 +107,12 @@
     border: solid;
     border-color: black;
   }
-
+  .map{
+    display: inherit;
+    clear: both;
+    text-align: center;
+  }
+  
 
 
 
